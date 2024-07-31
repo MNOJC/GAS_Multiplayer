@@ -29,14 +29,6 @@ void UPublicCPPLibrary::GetDynamicAimOffset(APlayerController* PlayerController,
 		return;
 	}
 	
-	FString PlayerControllerName = PlayerController->GetName();
-	UE_LOG(LogTemp, Log, TEXT("PlayerController Name: %s"), *PlayerControllerName);
-
-	// Ajoutez un message pour vérifier la validité de TargetActor
-	FString TargetActorName = TargetActor->GetName();
-	UE_LOG(LogTemp, Log, TEXT("TargetActor Name: %s"), *TargetActorName);
-	
-	
 	PlayerController->GetViewportSize(ViewportSizeX, ViewportSizeY);
 	
 	
