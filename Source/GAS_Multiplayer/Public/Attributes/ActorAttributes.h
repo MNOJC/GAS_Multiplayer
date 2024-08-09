@@ -21,8 +21,15 @@ class GAS_MULTIPLAYER_API UActorAttributes : public UAttributeSet
 
 public:
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, ReplicatedUsing=OnRep_Energy)
 	FGameplayAttributeData Energy;
 	ATTRIBUTE_ACCESSORS(UActorAttributes, Energy)
+
+	UFUNCTION()
+	virtual void OnRep_Energy(const FGameplayAttributeData& OldEnergy);
+
+	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
+	virtual void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue) override;
 	
 };
