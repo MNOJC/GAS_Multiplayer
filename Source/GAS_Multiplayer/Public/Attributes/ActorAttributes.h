@@ -25,11 +25,20 @@ public:
 	FGameplayAttributeData Energy;
 	ATTRIBUTE_ACCESSORS(UActorAttributes, Energy)
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated=OnRep_Health)
+	FGameplayAttributeData Health;
+	ATTRIBUTE_ACCESSORS(UActorAttributes, Health)
+
+	UFUNCTION()
+	virtual void OnRep_Health(const FGameplayAttributeData& OldHealth);
+
 	UFUNCTION()
 	virtual void OnRep_Energy(const FGameplayAttributeData& OldEnergy);
 
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 	virtual void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue) override;
+
+	
 	
 };

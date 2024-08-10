@@ -26,6 +26,11 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UAbilitySystemComponent* AbilitySystemComponent;
 
+	virtual void HealthChanged(const FOnAttributeChangeData& Data);
+	
+	UFUNCTION(BlueprintNativeEvent)
+	void UpdateHealth(const float NewHealth);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -34,3 +39,5 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 };
+
+

@@ -10,6 +10,7 @@ ACLMCharacter::ACLMCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
+	
 }
 
 // Called when the game starts or when spawned
@@ -20,8 +21,16 @@ void ACLMCharacter::BeginPlay()
 	if (IsValid(AbilitySystemComponent))
 	{
 		ActorAttributes = AbilitySystemComponent->GetSet<UActorAttributes>();
+		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(ActorAttributes->GetHealthAttribute()).AddUObject(this, &ACLMCharacter::HealthChanged);
 	}
+
 	
+}
+
+void ACLMCharacter::HealthChanged(const FOnAttributeChangeData& Data)
+{
+	float Health = Data.NewValue;
+	UpdateHealth(Health);
 }
 
 // Called every frame
@@ -36,5 +45,10 @@ void ACLMCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+void ACLMCharacter::UpdateHealth_Implementation(const float NewHealth)
+{
+	
 }
 
