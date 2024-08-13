@@ -31,6 +31,11 @@ void UActorAttributes::PreAttributeChange(const FGameplayAttribute& Attribute, f
 	{
 		NewValue = FMath::Clamp<float>(NewValue, 0.0f, 100.0f);
 	}
+
+	if (Attribute == GetHealthAttribute())
+	{
+		NewValue = FMath::Clamp<float>(NewValue, 0.0f, 100.0f);
+	}
 }
 
 
