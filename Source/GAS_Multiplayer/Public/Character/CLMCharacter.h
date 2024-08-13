@@ -27,9 +27,16 @@ protected:
 	UAbilitySystemComponent* AbilitySystemComponent;
 
 	virtual void HealthChanged(const FOnAttributeChangeData& Data);
+
+	virtual void EnergyChanged(const FOnAttributeChangeData& Data);
 	
 	UFUNCTION(BlueprintNativeEvent)
 	void UpdateHealth(const float NewHealth);
+
+	UFUNCTION(BlueprintNativeEvent)
+	void UpdateEnergy(const float NewEnergy);
+
+	
 
 public:	
 	// Called every frame

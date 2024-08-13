@@ -22,6 +22,7 @@ void ACLMCharacter::BeginPlay()
 	{
 		ActorAttributes = AbilitySystemComponent->GetSet<UActorAttributes>();
 		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(ActorAttributes->GetHealthAttribute()).AddUObject(this, &ACLMCharacter::HealthChanged);
+		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(ActorAttributes->GetEnergyAttribute()).AddUObject(this, &ACLMCharacter::EnergyChanged);
 	}
 
 	
@@ -31,6 +32,12 @@ void ACLMCharacter::HealthChanged(const FOnAttributeChangeData& Data)
 {
 	float Health = Data.NewValue;
 	UpdateHealth(Health);
+}
+
+void ACLMCharacter::EnergyChanged(const FOnAttributeChangeData& Data)
+{
+	float Energy = Data.NewValue;
+	UpdateEnergy(Energy);
 }
 
 // Called every frame
@@ -52,3 +59,7 @@ void ACLMCharacter::UpdateHealth_Implementation(const float NewHealth)
 	
 }
 
+void ACLMCharacter::UpdateEnergy_Implementation(const float NewEnergy)
+{
+	
+}
