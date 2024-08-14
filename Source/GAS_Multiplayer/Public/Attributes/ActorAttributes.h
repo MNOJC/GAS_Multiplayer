@@ -25,7 +25,7 @@ public:
 	FGameplayAttributeData Energy;
 	ATTRIBUTE_ACCESSORS(UActorAttributes, Energy)
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated=OnRep_Health)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, ReplicatedUsing=OnRep_Health)
 	FGameplayAttributeData Health;
 	ATTRIBUTE_ACCESSORS(UActorAttributes, Health)
 

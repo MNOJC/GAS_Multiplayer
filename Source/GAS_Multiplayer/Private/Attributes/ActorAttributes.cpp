@@ -30,6 +30,7 @@ void UActorAttributes::PreAttributeChange(const FGameplayAttribute& Attribute, f
 	if (Attribute == GetEnergyAttribute())
 	{
 		NewValue = FMath::Clamp<float>(NewValue, 0.0f, 100.0f);
+		UE_LOG(LogTemp, Warning, TEXT("PreAttributeChange: Clamping Energy to %f"), NewValue);
 	}
 
 	if (Attribute == GetHealthAttribute())

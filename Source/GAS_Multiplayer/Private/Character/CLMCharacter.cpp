@@ -21,11 +21,21 @@ void ACLMCharacter::BeginPlay()
 	if (IsValid(AbilitySystemComponent))
 	{
 		ActorAttributes = AbilitySystemComponent->GetSet<UActorAttributes>();
-		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(ActorAttributes->GetHealthAttribute()).AddUObject(this, &ACLMCharacter::HealthChanged);
-		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(ActorAttributes->GetEnergyAttribute()).AddUObject(this, &ACLMCharacter::EnergyChanged);
+        
+		if (ActorAttributes)
+		{
+			AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(ActorAttributes->GetHealthAttribute()).AddUObject(this, &ACLMCharacter::HealthChanged);
+			AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(ActorAttributes->GetEnergyAttribute()).AddUObject(this, &ACLMCharacter::EnergyChanged);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Error, TEXT("ACLMCharacter::BeginPlay - ActorAttributes is null! Check if the Attribute Set is properly initialized."));
+		}
 	}
-
-	
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("ACLMCharacter::BeginPlay - AbilitySystemComponent is not valid!"));
+	}
 }
 
 void ACLMCharacter::HealthChanged(const FOnAttributeChangeData& Data)
@@ -37,6 +47,7 @@ void ACLMCharacter::HealthChanged(const FOnAttributeChangeData& Data)
 void ACLMCharacter::EnergyChanged(const FOnAttributeChangeData& Data)
 {
 	float Energy = Data.NewValue;
+	UE_LOG(LogTemp, Warning, TEXT("EnergyChanged: New Energy = %f"), Energy);
 	UpdateEnergy(Energy);
 }
 
