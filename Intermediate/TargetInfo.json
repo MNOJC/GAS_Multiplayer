@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GAS_Multiplayer",
+			"Path": "..\\Source\\GAS_Multiplayer.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GAS_MultiplayerEditor",
+			"Path": "..\\Source\\GAS_MultiplayerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
