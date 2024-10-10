@@ -36,20 +36,20 @@ void UPublicCPPLibrary::GetDynamicAimOffset(APlayerController* PlayerController,
 	{
 		if (ScreenPosition.Y > (ViewportSizeY / 2))
 		{
-			PitchOffset = ((DeltaSeconds * 10.0f) * (UKismetMathLibrary::FClamp(UKismetMathLibrary::Abs((ScreenPosition.Y) - (ViewportSizeY / 2))  / 4 , 0.0f, 1.0f)));
+			PitchOffset = ((DeltaSeconds * 20.0f) * (UKismetMathLibrary::FClamp(UKismetMathLibrary::Abs((ScreenPosition.Y) - (ViewportSizeY / 2))  / 4 , 0.0f, 1.0f)));
 		}
 		else
 		{
-			PitchOffset = ((DeltaSeconds * -10.0f) * (UKismetMathLibrary::FClamp(UKismetMathLibrary::Abs((ScreenPosition.Y) - (ViewportSizeY / 2))  / 4 , 0.0f, 1.0f)));
+			PitchOffset = ((DeltaSeconds * -20.0f) * (UKismetMathLibrary::FClamp(UKismetMathLibrary::Abs((ScreenPosition.Y) - (ViewportSizeY / 2))  / 4 , 0.0f, 1.0f)));
 		}
 
 		if (ScreenPosition.X > (ViewportSizeX / 2) )
 		{
-			YawOffset = ((DeltaSeconds * -10.0f) * (UKismetMathLibrary::FClamp(UKismetMathLibrary::Abs((ScreenPosition.X) - (ViewportSizeX / 2))  / 4 , 0.0f, 1.0f)));
+			YawOffset = ((DeltaSeconds * -20.0f) * (UKismetMathLibrary::FClamp(UKismetMathLibrary::Abs((ScreenPosition.X) - (ViewportSizeX / 2))  / 4 , 0.0f, 1.0f)));
 		}
 		else
 		{
-			YawOffset = ((DeltaSeconds * 10.0f) * (UKismetMathLibrary::FClamp(UKismetMathLibrary::Abs((ScreenPosition.X) - (ViewportSizeX / 2))  / 4 , 0.0f, 1.0f)));
+			YawOffset = ((DeltaSeconds * 20.0f) * (UKismetMathLibrary::FClamp(UKismetMathLibrary::Abs((ScreenPosition.X) - (ViewportSizeX / 2))  / 4 , 0.0f, 1.0f)));
 		}
 		
 	}
