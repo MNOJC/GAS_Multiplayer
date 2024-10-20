@@ -1,0 +1,43 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-OnlineSubsystemSteam.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Unreal Engine Project\GAS_Multiplayer\Intermediate\Build\Win64\x64\GAS_MultiplayerEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\IPAddressSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineAchievementsInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineAsyncTaskManagerSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineAuthHandlerSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineAuthInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineEncryptedAppTicketInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineExternalUIInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineFriendsInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineIdentityInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineLeaderboardInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlinePresenceInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlinePurchaseInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineSessionAsyncLobbySteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineSessionAsyncServerSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineSessionInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineSharedCloudInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineStoreInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineSubsystemModuleSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineSubsystemSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineUserCloudInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\SocketsSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\SocketSubsystemSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\SteamNetConnection.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\SteamNetDriver.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\SteamUtilities.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\VoiceEngineSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\VoiceInterfaceSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\VoicePacketSteam.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineAuthHandlerSteam.gen.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\OnlineSubsystemSteam.init.gen.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\SteamNetConnection.gen.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\SteamNetDriver.gen.cpp.obj"
+"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\Default.rc2.res"
+/OUT:"F:\Unreal Engine Project\GAS_Multiplayer\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystemSteam\UnrealEditor-OnlineSubsystemSteam.lib"
