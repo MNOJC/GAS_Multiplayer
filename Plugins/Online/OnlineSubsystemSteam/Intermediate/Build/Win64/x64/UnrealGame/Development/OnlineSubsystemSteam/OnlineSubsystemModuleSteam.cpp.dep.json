@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\unreal engine project\\gas_multiplayer\\plugins\\online\\onlinesubsystemsteam\\source\\private\\onlinesubsystemmodulesteam.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\unreal engine project\\gas_multiplayer\\intermediate\\build\\win64\\x64\\gas_multiplayer\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\unreal engine project\\gas_multiplayer\\plugins\\online\\onlinesubsystemsteam\\intermediate\\build\\win64\\x64\\unrealgame\\development\\onlinesubsystemsteam\\definitions.onlinesubsystemsteam.h",
+            "f:\\unreal engine project\\gas_multiplayer\\plugins\\online\\onlinesubsystemsteam\\source\\public\\onlinesubsystemsteammodule.h",
+            "f:\\unreal engine project\\gas_multiplayer\\plugins\\online\\onlinesubsystemsteam\\source\\public\\onlinesubsystemsteam.h",
+            "d:\\games\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinedelegatemacros.h",
+            "d:\\games\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemimpl.h",
+            "d:\\games\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystem.h",
+            "d:\\games\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemmodule.h",
+            "d:\\games\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemtypes.h",
+            "d:\\games\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemnames.h",
+            "f:\\unreal engine project\\gas_multiplayer\\plugins\\online\\onlinesubsystemsteam\\source\\public\\onlinesubsystemsteampackage.h",
+            "d:\\games\\ue_5.4\\engine\\plugins\\runtime\\steam\\steamshared\\source\\steamshared\\public\\steamsharedmodule.h",
+            "d:\\games\\ue_5.4\\engine\\plugins\\runtime\\steam\\steamshared\\source\\steamshared\\public\\steamsharedpackage.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

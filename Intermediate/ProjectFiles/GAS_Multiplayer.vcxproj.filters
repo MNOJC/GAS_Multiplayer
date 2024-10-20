@@ -230,6 +230,24 @@
     <None Include="..\..\Plugins\AdvancedSteamSessions\Resources\Icon128.png">
       <Filter>Plugins\AdvancedSteamSessions\Resources</Filter>
     </None>
+    <Filter Include="Plugins\Online">
+      <UniqueIdentifier>{B57EA5B4-4255-3C3F-9B05-51025DC988FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Online\OnlineSubsystemSteam">
+      <UniqueIdentifier>{E0B4913B-3A2D-39FE-B9EC-69FBA4961C8D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Online\OnlineSubsystemSteam\OnlineSubsystemSteam.uplugin">
+      <Filter>Plugins\Online\OnlineSubsystemSteam</Filter>
+    </None>
+    <Filter Include="Plugins\Online\OnlineSubsystemSteam\Config">
+      <UniqueIdentifier>{1AC19AC0-9D06-3C73-80CE-E051B579A72C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Online\OnlineSubsystemSteam\Config\Localization">
+      <UniqueIdentifier>{BED72C08-A85C-322C-8126-802D639017A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Online\OnlineSubsystemSteam\Config\Localization\OnlineSubsystemSteam.ini">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Config\Localization</Filter>
+    </None>
     <Filter Include="Plugins\AdvancedSteamSessions\Source">
       <UniqueIdentifier>{D96B0581-0D1E-3EAD-A89C-A9EE4E8E7D00}</UniqueIdentifier>
     </Filter>
@@ -278,6 +296,210 @@
     <ClCompile Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\SteamWSRequestUGCDetailsCallbackProxy.cpp">
       <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
     </ClCompile>
+    <Filter Include="Plugins\Online\OnlineSubsystemSteam\Source">
+      <UniqueIdentifier>{2C21B68F-2403-3EE4-A0EC-8B1E7C26F6D5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\OnlineSubsystemSteam.Build.cs">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source</Filter>
+    </None>
+    <Filter Include="Plugins\Online\OnlineSubsystemSteam\Source\Classes">
+      <UniqueIdentifier>{0039DD86-D18B-30DC-AA88-5230C0C9A429}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Classes\SteamNetConnection.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Classes\SteamNetDriver.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Online\OnlineSubsystemSteam\Source\Private">
+      <UniqueIdentifier>{EB4752D5-7A2A-3008-96D0-997EBDC1CBE6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\IPAddressSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\IPAddressSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\NboSerializerSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineAchievementsInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineAchievementsInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineAsyncTaskManagerSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineAsyncTaskManagerSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineAuthHandlerSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineAuthHandlerSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineAuthInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineAuthInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineEncryptedAppTicketInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineExternalUIInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineExternalUIInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineFriendsInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineFriendsInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineIdentityInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineIdentityInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineLeaderboardInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineLeaderboardInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlinePresenceInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlinePresenceInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlinePurchaseInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSessionAsyncLobbySteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSessionAsyncLobbySteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSessionAsyncServerSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSessionAsyncServerSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSessionInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSessionInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSharedCloudInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSharedCloudInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineStoreInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineStoreInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSubsystemModuleSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSubsystemSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSubsystemSteamPrivate.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSubsystemSteamTypes.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineUserCloudInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineUserCloudInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\SocketsSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\SocketsSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\SocketSubsystemSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\SocketSubsystemSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\SteamNetConnection.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\SteamNetDriver.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\SteamSessionKeys.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\SteamUtilities.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\SteamUtilities.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\VoiceEngineSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\VoiceEngineSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\VoiceInterfaceSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\VoiceInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\VoicePacketSteam.cpp">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Private\VoicePacketSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Online\OnlineSubsystemSteam\Source\Public">
+      <UniqueIdentifier>{FB424264-0583-3F98-89F6-9D1BE597AEE8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Public\OnlineAuthInterfaceUtilsSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Public\OnlineEncryptedAppTicketInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Public\OnlinePingInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Public\OnlinePurchaseInterfaceSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Public\OnlineSubsystemSteam.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Public\OnlineSubsystemSteamModule.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Public\OnlineSubsystemSteamPackage.h">
+      <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Public</Filter>
+    </ClInclude>
     <Filter Include="Source\GAS_Multiplayer">
       <UniqueIdentifier>{F5CBA1A7-E34B-3C24-B7BC-6A0BBB4428C6}</UniqueIdentifier>
     </Filter>

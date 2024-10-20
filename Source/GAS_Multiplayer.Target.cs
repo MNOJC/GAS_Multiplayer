@@ -10,6 +10,11 @@ public class GAS_MultiplayerTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+		
+		bUsesSteam = true;
+		
 		ExtraModuleNames.Add("GAS_Multiplayer");
+		
+		
 	}
 }

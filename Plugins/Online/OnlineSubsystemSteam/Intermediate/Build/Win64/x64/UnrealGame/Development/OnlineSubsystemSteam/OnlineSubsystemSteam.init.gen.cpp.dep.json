@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\unreal engine project\\gas_multiplayer\\plugins\\online\\onlinesubsystemsteam\\intermediate\\build\\win64\\unrealgame\\inc\\onlinesubsystemsteam\\uht\\onlinesubsystemsteam.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\unreal engine project\\gas_multiplayer\\intermediate\\build\\win64\\x64\\gas_multiplayer\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\unreal engine project\\gas_multiplayer\\plugins\\online\\onlinesubsystemsteam\\intermediate\\build\\win64\\x64\\unrealgame\\development\\onlinesubsystemsteam\\definitions.onlinesubsystemsteam.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
