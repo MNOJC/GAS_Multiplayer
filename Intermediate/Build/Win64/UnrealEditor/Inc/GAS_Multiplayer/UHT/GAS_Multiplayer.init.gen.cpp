@@ -7,23 +7,27 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeGAS_Multiplayer_init() {}
+	GAS_MULTIPLAYER_API UFunction* Z_Construct_UDelegateFunction_GAS_Multiplayer_OnCooldownChanged__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_GAS_Multiplayer;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_GAS_Multiplayer()
 	{
 		if (!Z_Registration_Info_UPackage__Script_GAS_Multiplayer.OuterSingleton)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_GAS_Multiplayer_OnCooldownChanged__DelegateSignature,
+			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
 				"/Script/GAS_Multiplayer",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x4F070BFD,
-				0x9E11DEDF,
+				0x993AA0D2,
+				0xCDE604A3,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_GAS_Multiplayer.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_GAS_Multiplayer.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GAS_Multiplayer(Z_Construct_UPackage__Script_GAS_Multiplayer, TEXT("/Script/GAS_Multiplayer"), Z_Registration_Info_UPackage__Script_GAS_Multiplayer, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x4F070BFD, 0x9E11DEDF));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GAS_Multiplayer(Z_Construct_UPackage__Script_GAS_Multiplayer, TEXT("/Script/GAS_Multiplayer"), Z_Registration_Info_UPackage__Script_GAS_Multiplayer, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x993AA0D2, 0xCDE604A3));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

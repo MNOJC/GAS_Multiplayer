@@ -515,6 +515,12 @@
     <Filter Include="Source\GAS_Multiplayer\Private">
       <UniqueIdentifier>{C98DE95F-BC50-3184-95CA-51FDAD3B0FFE}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\GAS_Multiplayer\Private\AsyncTask">
+      <UniqueIdentifier>{6DB56596-17F3-3A7D-90E5-F6F8933694FF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GAS_Multiplayer\Private\AsyncTask\AsyncTaskCooldownChanged.cpp">
+      <Filter>Source\GAS_Multiplayer\Private\AsyncTask</Filter>
+    </ClCompile>
     <Filter Include="Source\GAS_Multiplayer\Private\Attributes">
       <UniqueIdentifier>{1985CDC2-D6E7-3E92-9650-83008333A3D0}</UniqueIdentifier>
     </Filter>
@@ -545,6 +551,12 @@
     <Filter Include="Source\GAS_Multiplayer\Public">
       <UniqueIdentifier>{4EE84A40-C3CC-3061-8764-C1291E95DD8C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\GAS_Multiplayer\Public\AsyncTask">
+      <UniqueIdentifier>{631B7CC9-A48D-3118-A57F-3CA18677885A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\AsyncTaskCooldownChanged.h">
+      <Filter>Source\GAS_Multiplayer\Public\AsyncTask</Filter>
+    </ClInclude>
     <Filter Include="Source\GAS_Multiplayer\Public\Attributes">
       <UniqueIdentifier>{9B86CD7E-1F4D-32B2-B133-9CA4EB84F74E}</UniqueIdentifier>
     </Filter>
