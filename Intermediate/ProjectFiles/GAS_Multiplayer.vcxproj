@@ -799,6 +799,10 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_3)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\GAS_Multiplayer.h"/>
+    <ClCompile Include="..\..\Source\GAS_Multiplayer\Private\AsyncTask\AsyncTaskAttributeChanged.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_3)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_3)</ForcedIncludeFiles>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GAS_Multiplayer\Private\AsyncTask\AsyncTaskCooldownChanged.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_3)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_3)</ForcedIncludeFiles>
@@ -823,6 +827,7 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_3)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_3)</ForcedIncludeFiles>
     </ClCompile>
+    <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\AsyncTaskAttributeChanged.h"/>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\AsyncTaskCooldownChanged.h"/>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\Attributes\ActorAttributes.h"/>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\Character\CLMCharacter.h"/>

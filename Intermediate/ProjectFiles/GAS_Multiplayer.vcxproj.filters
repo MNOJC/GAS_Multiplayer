@@ -518,6 +518,9 @@
     <Filter Include="Source\GAS_Multiplayer\Private\AsyncTask">
       <UniqueIdentifier>{6DB56596-17F3-3A7D-90E5-F6F8933694FF}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GAS_Multiplayer\Private\AsyncTask\AsyncTaskAttributeChanged.cpp">
+      <Filter>Source\GAS_Multiplayer\Private\AsyncTask</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GAS_Multiplayer\Private\AsyncTask\AsyncTaskCooldownChanged.cpp">
       <Filter>Source\GAS_Multiplayer\Private\AsyncTask</Filter>
     </ClCompile>
@@ -554,6 +557,9 @@
     <Filter Include="Source\GAS_Multiplayer\Public\AsyncTask">
       <UniqueIdentifier>{631B7CC9-A48D-3118-A57F-3CA18677885A}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\AsyncTaskAttributeChanged.h">
+      <Filter>Source\GAS_Multiplayer\Public\AsyncTask</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\AsyncTaskCooldownChanged.h">
       <Filter>Source\GAS_Multiplayer\Public\AsyncTask</Filter>
     </ClInclude>

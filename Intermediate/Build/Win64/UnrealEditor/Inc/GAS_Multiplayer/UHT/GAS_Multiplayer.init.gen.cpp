@@ -7,6 +7,7 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeGAS_Multiplayer_init() {}
+	GAS_MULTIPLAYER_API UFunction* Z_Construct_UDelegateFunction_GAS_Multiplayer_OnAttributeChanged__DelegateSignature();
 	GAS_MULTIPLAYER_API UFunction* Z_Construct_UDelegateFunction_GAS_Multiplayer_OnCooldownChanged__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_GAS_Multiplayer;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_GAS_Multiplayer()
@@ -14,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeGAS_Multiplayer_init() {}
 		if (!Z_Registration_Info_UPackage__Script_GAS_Multiplayer.OuterSingleton)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_GAS_Multiplayer_OnAttributeChanged__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_GAS_Multiplayer_OnCooldownChanged__DelegateSignature,
 			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
@@ -21,13 +23,13 @@ void EmptyLinkFunctionForGeneratedCodeGAS_Multiplayer_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xCE1041A8,
-				0xCDE604A3,
+				0x96DFF006,
+				0x1E417E40,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_GAS_Multiplayer.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_GAS_Multiplayer.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GAS_Multiplayer(Z_Construct_UPackage__Script_GAS_Multiplayer, TEXT("/Script/GAS_Multiplayer"), Z_Registration_Info_UPackage__Script_GAS_Multiplayer, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xCE1041A8, 0xCDE604A3));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GAS_Multiplayer(Z_Construct_UPackage__Script_GAS_Multiplayer, TEXT("/Script/GAS_Multiplayer"), Z_Registration_Info_UPackage__Script_GAS_Multiplayer, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x96DFF006, 0x1E417E40));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
