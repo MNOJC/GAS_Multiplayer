@@ -18,5 +18,8 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	static void GetDynamicAimOffset(APlayerController* PlayerController, USceneComponent* TargetActor, float DeltaSeconds, float& PitchOffset, float& YawOffset);
+
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	static float CalculateNewPos(float DefaultPos, float AxisValue);
 	
 };

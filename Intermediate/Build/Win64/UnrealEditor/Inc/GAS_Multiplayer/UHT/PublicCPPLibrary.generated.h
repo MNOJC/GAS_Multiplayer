@@ -17,6 +17,7 @@ class USceneComponent;
 #define GAS_MULTIPLAYER_PublicCPPLibrary_generated_h
 
 #define FID_GAS_Multiplayer_Source_GAS_Multiplayer_Public_Library_PublicCPPLibrary_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execCalculateNewPos); \
 	DECLARE_FUNCTION(execGetDynamicAimOffset);
 
 

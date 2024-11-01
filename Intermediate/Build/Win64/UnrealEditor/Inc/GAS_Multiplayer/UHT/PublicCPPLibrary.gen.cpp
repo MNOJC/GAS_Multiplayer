@@ -18,6 +18,57 @@ GAS_MULTIPLAYER_API UClass* Z_Construct_UClass_UPublicCPPLibrary_NoRegister();
 UPackage* Z_Construct_UPackage__Script_GAS_Multiplayer();
 // End Cross Module References
 
+// Begin Class UPublicCPPLibrary Function CalculateNewPos
+struct Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics
+{
+	struct PublicCPPLibrary_eventCalculateNewPos_Parms
+	{
+		float DefaultPos;
+		float AxisValue;
+		float ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Library/PublicCPPLibrary.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_DefaultPos;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_AxisValue;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::NewProp_DefaultPos = { "DefaultPos", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PublicCPPLibrary_eventCalculateNewPos_Parms, DefaultPos), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::NewProp_AxisValue = { "AxisValue", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PublicCPPLibrary_eventCalculateNewPos_Parms, AxisValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PublicCPPLibrary_eventCalculateNewPos_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::NewProp_DefaultPos,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::NewProp_AxisValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPublicCPPLibrary, nullptr, "CalculateNewPos", nullptr, nullptr, Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::PropPointers), sizeof(Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::PublicCPPLibrary_eventCalculateNewPos_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::Function_MetaDataParams), Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::PublicCPPLibrary_eventCalculateNewPos_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UPublicCPPLibrary::execCalculateNewPos)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_DefaultPos);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_AxisValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(float*)Z_Param__Result=UPublicCPPLibrary::CalculateNewPos(Z_Param_DefaultPos,Z_Param_AxisValue);
+	P_NATIVE_END;
+}
+// End Class UPublicCPPLibrary Function CalculateNewPos
+
 // Begin Class UPublicCPPLibrary Function GetDynamicAimOffset
 struct Z_Construct_UFunction_UPublicCPPLibrary_GetDynamicAimOffset_Statics
 {
@@ -88,6 +139,7 @@ void UPublicCPPLibrary::StaticRegisterNativesUPublicCPPLibrary()
 {
 	UClass* Class = UPublicCPPLibrary::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "CalculateNewPos", &UPublicCPPLibrary::execCalculateNewPos },
 		{ "GetDynamicAimOffset", &UPublicCPPLibrary::execGetDynamicAimOffset },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -110,6 +162,7 @@ struct Z_Construct_UClass_UPublicCPPLibrary_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_UPublicCPPLibrary_CalculateNewPos, "CalculateNewPos" }, // 1150006086
 		{ &Z_Construct_UFunction_UPublicCPPLibrary_GetDynamicAimOffset, "GetDynamicAimOffset" }, // 1361136965
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -159,10 +212,10 @@ UPublicCPPLibrary::~UPublicCPPLibrary() {}
 struct Z_CompiledInDeferFile_FID_GAS_Multiplayer_Source_GAS_Multiplayer_Public_Library_PublicCPPLibrary_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UPublicCPPLibrary, UPublicCPPLibrary::StaticClass, TEXT("UPublicCPPLibrary"), &Z_Registration_Info_UClass_UPublicCPPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPublicCPPLibrary), 4080282429U) },
+		{ Z_Construct_UClass_UPublicCPPLibrary, UPublicCPPLibrary::StaticClass, TEXT("UPublicCPPLibrary"), &Z_Registration_Info_UClass_UPublicCPPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPublicCPPLibrary), 175987622U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GAS_Multiplayer_Source_GAS_Multiplayer_Public_Library_PublicCPPLibrary_h_3437562135(TEXT("/Script/GAS_Multiplayer"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GAS_Multiplayer_Source_GAS_Multiplayer_Public_Library_PublicCPPLibrary_h_2889172543(TEXT("/Script/GAS_Multiplayer"),
 	Z_CompiledInDeferFile_FID_GAS_Multiplayer_Source_GAS_Multiplayer_Public_Library_PublicCPPLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GAS_Multiplayer_Source_GAS_Multiplayer_Public_Library_PublicCPPLibrary_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

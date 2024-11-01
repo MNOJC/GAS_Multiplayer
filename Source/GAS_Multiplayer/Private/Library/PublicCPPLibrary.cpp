@@ -54,3 +54,8 @@ void UPublicCPPLibrary::GetDynamicAimOffset(APlayerController* PlayerController,
 		
 	}
 }
+
+float UPublicCPPLibrary::CalculateNewPos(float DefaultPos, float AxisValue)
+{
+	return (-4 * AxisValue) + DefaultPos;
+}
