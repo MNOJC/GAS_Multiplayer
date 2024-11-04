@@ -524,6 +524,9 @@
     <ClCompile Include="..\..\Source\GAS_Multiplayer\Private\AsyncTask\AsyncTaskCooldownChanged.cpp">
       <Filter>Source\GAS_Multiplayer\Private\AsyncTask</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GAS_Multiplayer\Private\AsyncTask\PlayMontageAndWaitForEvent.cpp">
+      <Filter>Source\GAS_Multiplayer\Private\AsyncTask</Filter>
+    </ClCompile>
     <Filter Include="Source\GAS_Multiplayer\Private\Attributes">
       <UniqueIdentifier>{1985CDC2-D6E7-3E92-9650-83008333A3D0}</UniqueIdentifier>
     </Filter>
@@ -561,6 +564,9 @@
       <Filter>Source\GAS_Multiplayer\Public\AsyncTask</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\AsyncTaskCooldownChanged.h">
+      <Filter>Source\GAS_Multiplayer\Public\AsyncTask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\PlayMontageAndWaitForEvent.h">
       <Filter>Source\GAS_Multiplayer\Public\AsyncTask</Filter>
     </ClInclude>
     <Filter Include="Source\GAS_Multiplayer\Public\Attributes">

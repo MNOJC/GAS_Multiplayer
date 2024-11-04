@@ -807,6 +807,10 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_3)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_3)</ForcedIncludeFiles>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GAS_Multiplayer\Private\AsyncTask\PlayMontageAndWaitForEvent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_3)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_3)</ForcedIncludeFiles>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GAS_Multiplayer\Private\Attributes\ActorAttributes.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_3)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_3)</ForcedIncludeFiles>
@@ -829,6 +833,7 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\AsyncTaskAttributeChanged.h"/>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\AsyncTaskCooldownChanged.h"/>
+    <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\AsyncTask\PlayMontageAndWaitForEvent.h"/>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\Attributes\ActorAttributes.h"/>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\Character\CLMCharacter.h"/>
     <ClInclude Include="..\..\Source\GAS_Multiplayer\Public\Core\LobbyGameMode.h"/>
