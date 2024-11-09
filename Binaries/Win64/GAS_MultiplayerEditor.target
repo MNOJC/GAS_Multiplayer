@@ -3736,6 +3736,18 @@
 		{
 			"Path": "$(ProjectDir)/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SMN2/Binaries/Win64/UnrealEditor-SMN2P.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SMN2/Binaries/Win64/UnrealEditor-SMN2P.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SMN2/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
 		}
 	],
 	"RuntimeDependencies": [
@@ -26802,6 +26814,10 @@
 		{
 			"Path": "$(ProjectDir)/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SMN2/SMN2P.uplugin",
+			"Type": "UFS"
 		}
 	],
 	"BuildPlugins": [
@@ -26951,6 +26967,7 @@
 		"RiderLink",
 		"RiderSourceCodeAccess",
 		"RigVM",
+		"SMN2P",
 		"SequencerAnimTools",
 		"SequencerScripting",
 		"SignificanceManager",
