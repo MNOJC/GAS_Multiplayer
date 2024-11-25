@@ -7,7 +7,6 @@
 #include "Kismet/GameplayStatics.h"
 #include "Components/SceneComponent.h"
 #include "Kismet/KismetMathLibrary.h"
-
 #include "Runtime/Engine/Classes/Engine/World.h"
 
 void UPublicCPPLibrary::GetDynamicAimOffset(APlayerController* PlayerController, USceneComponent* TargetActor, float DeltaSeconds, float& PitchOffset, float& YawOffset)

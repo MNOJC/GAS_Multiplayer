@@ -13,10 +13,7 @@
     </None>
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
-    <None Include="..\..\.vsconfig" />
-    <None Include="..\..\GAS_Multiplayer.sln.DotSettings.user" />
     <None Include="..\..\README.md" />
-    <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -247,6 +244,18 @@
     </Filter>
     <None Include="..\..\Plugins\Online\OnlineSubsystemSteam\Config\Localization\OnlineSubsystemSteam.ini">
       <Filter>Plugins\Online\OnlineSubsystemSteam\Config\Localization</Filter>
+    </None>
+    <Filter Include="Plugins\SMN2">
+      <UniqueIdentifier>{3E0E67E1-4555-3CC6-B07F-AC728DC7F288}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SMN2\SMN2P.uplugin">
+      <Filter>Plugins\SMN2</Filter>
+    </None>
+    <Filter Include="Plugins\SMN2\Resources">
+      <UniqueIdentifier>{6B8E636E-70F3-37AC-BFB2-CF991A760EF7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SMN2\Resources\Icon128.png">
+      <Filter>Plugins\SMN2\Resources</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSteamSessions\Source">
       <UniqueIdentifier>{D96B0581-0D1E-3EAD-A89C-A9EE4E8E7D00}</UniqueIdentifier>
@@ -499,6 +508,36 @@
     </ClInclude>
     <ClInclude Include="..\..\Plugins\Online\OnlineSubsystemSteam\Source\Public\OnlineSubsystemSteamPackage.h">
       <Filter>Plugins\Online\OnlineSubsystemSteam\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SMN2\Source">
+      <UniqueIdentifier>{1292CBF4-D1D6-3D06-8BCD-356A08F01CCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SMN2\Source\SMN2P">
+      <UniqueIdentifier>{D4760CFB-BE60-3D16-9ECC-B6D288E48736}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SMN2\Source\SMN2P\SMN2P.Build.cs">
+      <Filter>Plugins\SMN2\Source\SMN2P</Filter>
+    </None>
+    <Filter Include="Plugins\SMN2\Source\SMN2P\Private">
+      <UniqueIdentifier>{173CC171-D043-3D07-97CA-DF4FFF1EE14E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SMN2\Source\SMN2P\Private\SMN2P.cpp">
+      <Filter>Plugins\SMN2\Source\SMN2P\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SMN2\Source\SMN2P\Private\SMNCharacterMovementComponent.cpp">
+      <Filter>Plugins\SMN2\Source\SMN2P\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\SMN2\Source\SMN2P\Public">
+      <UniqueIdentifier>{65A64D93-BEF1-36A7-B117-4D18BDC22004}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SMN2\Source\SMN2P\Public\SMN2Macros.h">
+      <Filter>Plugins\SMN2\Source\SMN2P\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SMN2\Source\SMN2P\Public\SMN2P.h">
+      <Filter>Plugins\SMN2\Source\SMN2P\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SMN2\Source\SMN2P\Public\SMNCharacterMovementComponent.h">
+      <Filter>Plugins\SMN2\Source\SMN2P\Public</Filter>
     </ClInclude>
     <Filter Include="Source\GAS_Multiplayer">
       <UniqueIdentifier>{F5CBA1A7-E34B-3C24-B7BC-6A0BBB4428C6}</UniqueIdentifier>
